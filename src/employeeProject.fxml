@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="350.0" style="-fx-background-color: #d6e6f2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeProjectController">
+   <children>
+      <Label layoutX="50.0" layoutY="30.0" text="Assign Projects and Hours" textFill="#07689f">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="70.0" text="Pnumber" textFill="#07689f">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="70.0" text="Project Name" textFill="#07689f">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="225.0" prefHeight="20.0" prefWidth="83.0" text="Newbenefits" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="175.0" prefHeight="20.0" prefWidth="107.0" text="Computerization" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="200.0" prefHeight="20.0" prefWidth="99.0" text="Reorganization" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="125.0" prefHeight="20.0" prefWidth="66.0" text="ProductY" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="150.0" prefHeight="20.0" prefWidth="63.0" text="ProductZ" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="100.0" prefHeight="20.0" prefWidth="69.0" text="ProductX" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Line endX="80.0" layoutX="138.0" layoutY="93.0" startX="-90.0" />
+      <CheckBox fx:id="chkBox1" layoutX="50.0" layoutY="100.0" mnemonicParsing="false" onAction="#chkBox1Action" prefHeight="20.0" prefWidth="45.0" text="1" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="txtProductX" layoutX="260.0" layoutY="98.0" prefHeight="25.0" prefWidth="50.0" style="-fx-border-color: #d6e6f2; -fx-background-color: #f7fbfc;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="chkBox2" layoutX="50.0" layoutY="125.0" mnemonicParsing="false" onAction="#chkBox2Action" prefHeight="20.0" prefWidth="45.0" text="2" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="txtProductY" layoutX="260.0" layoutY="122.0" prefHeight="5.0" prefWidth="50.0" style="-fx-border-color: #d6e6f2; -fx-background-color: #f7fbfc;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="chkBox3" layoutX="50.0" layoutY="150.0" mnemonicParsing="false" onAction="#chkBox3Action" prefHeight="20.0" prefWidth="45.0" text="3" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="txtProductZ" layoutX="260.0" layoutY="147.0" prefHeight="5.0" prefWidth="50.0" style="-fx-border-color: #d6e6f2; -fx-background-color: #f7fbfc;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="chkBox4" layoutX="50.0" layoutY="175.0" mnemonicParsing="false" onAction="#chkBox4Action" prefHeight="20.0" prefWidth="45.0" text="10" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="txtComputerization" layoutX="260.0" layoutY="172.0" prefHeight="5.0" prefWidth="50.0" style="-fx-border-color: #d6e6f2; -fx-background-color: #f7fbfc;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="chkBox5" layoutX="50.0" layoutY="200.0" mnemonicParsing="false" onAction="#chkBox5Action" prefHeight="20.0" prefWidth="45.0" text="20" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="txtReorganization" layoutX="260.0" layoutY="197.0" prefHeight="5.0" prefWidth="50.0" style="-fx-border-color: #d6e6f2; -fx-background-color: #f7fbfc;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="chkBox6" layoutX="50.0" layoutY="225.0" mnemonicParsing="false" onAction="#chkBox6Action" prefHeight="20.0" prefWidth="45.0" text="30" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="txtNewbenefits" layoutX="260.0" layoutY="222.0" prefHeight="5.0" prefWidth="50.0" style="-fx-border-color: #d6e6f2; -fx-background-color: #f7fbfc;">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <Button layoutX="133.0" layoutY="264.0" mnemonicParsing="false" onAction="#addproject" prefHeight="23.0" prefWidth="75.0" style="-fx-background-color: #f7fbfc;" text="Next -&gt;" textFill="#769fcd">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="269.0" layoutY="70.0" text="Hours" textFill="#07689f">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInput" alignment="CENTER" layoutX="47.0" layoutY="353.0" prefHeight="40.0" prefWidth="262.0" textFill="#ff7e67" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblProjects" alignment="TOP_CENTER" layoutX="117.0" layoutY="313.0" prefHeight="30.0" prefWidth="107.0" textFill="#07689f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

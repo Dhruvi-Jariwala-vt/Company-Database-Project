@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="500.0" style="-fx-background-color: #d6e6f2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrintReportController">
+   <children>
+      <Label layoutX="46.0" layoutY="65.0" prefHeight="20.0" prefWidth="157.0" text="Personal Information" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="372.0" prefHeight="20.0" prefWidth="139.0" text="Projects and Hours" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="646.0" prefHeight="20.0" prefWidth="151.0" text="Dependents" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="107.0" prefHeight="20.0" prefWidth="129.0" text="Name :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="134.0" prefHeight="20.0" prefWidth="176.0" text="Social Security Number :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="157.0" prefHeight="20.0" prefWidth="120.0" text="Birth Date :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="183.0" prefHeight="20.0" prefWidth="74.0" text="Address :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="208.0" prefHeight="20.0" prefWidth="74.0" text="Sex :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="233.0" prefHeight="20.0" prefWidth="74.0" text="Salary :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="265.0" prefHeight="20.0" prefWidth="157.0" text="Department Assigned :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="326.0" prefHeight="20.0" prefWidth="113.0" text="E-mail address :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblPnumber" layoutX="75.0" layoutY="408.0" prefHeight="20.0" prefWidth="120.0" text="Project Number" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblHours" layoutX="304.0" layoutY="408.0" prefHeight="20.0" prefWidth="45.0" text="Hours" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="702.0" prefHeight="20.0" prefWidth="157.0" text="Dependents:" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblName" alignment="CENTER" layoutX="282.0" layoutY="107.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblSsn" alignment="CENTER" layoutX="282.0" layoutY="134.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblAddress" alignment="CENTER" layoutX="282.0" layoutY="185.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblSex" alignment="CENTER" layoutX="282.0" layoutY="210.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblBdate" alignment="CENTER" layoutX="282.0" layoutY="160.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblSalary" alignment="CENTER" layoutX="282.0" layoutY="235.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblEmail" alignment="CENTER" layoutX="282.0" layoutY="323.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblDnumber" alignment="CENTER" layoutX="282.0" layoutY="263.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="196.0" layoutY="22.0" prefHeight="20.0" prefWidth="151.0" text="New Employee Report" textFill="#07689f" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMgrSsn" alignment="CENTER" layoutX="282.0" layoutY="295.0" prefHeight="20.0" prefWidth="150.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="295.0" prefHeight="20.0" prefWidth="120.0" text="Manager Name :" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblDeptName1" layoutX="175.0" layoutY="514.0" prefHeight="20.0" prefWidth="50.0" text="3" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeptName11" layoutX="175.0" layoutY="482.0" prefHeight="20.0" prefWidth="50.0" text="2" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeptName12" layoutX="175.0" layoutY="547.0" prefHeight="20.0" prefWidth="50.0" text="10" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl1" alignment="CENTER" layoutX="282.0" layoutY="446.0" prefHeight="20.0" prefWidth="90.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeptName14" layoutX="175.0" layoutY="583.0" prefHeight="20.0" prefWidth="50.0" text="20" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeptName15" layoutX="175.0" layoutY="612.0" prefHeight="20.0" prefWidth="50.0" text="30" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl10" alignment="CENTER" layoutX="282.0" layoutY="547.0" prefHeight="20.0" prefWidth="90.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl3" alignment="CENTER" layoutX="282.0" layoutY="514.0" prefHeight="20.0" prefWidth="90.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl30" alignment="CENTER" layoutX="282.0" layoutY="615.0" prefHeight="20.0" prefWidth="90.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl20" alignment="CENTER" layoutX="282.0" layoutY="586.0" prefHeight="20.0" prefWidth="90.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" alignment="CENTER" layoutX="282.0" layoutY="483.0" prefHeight="20.0" prefWidth="90.0" style="-fx-background-color: #f7fbfc;" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeptName111" layoutX="175.0" layoutY="445.0" prefHeight="20.0" prefWidth="50.0" text="1" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDept" alignment="TOP_CENTER" layoutX="283.0" layoutY="686.0" prefHeight="117.0" prefWidth="67.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblrelation" alignment="TOP_CENTER" layoutX="349.0" layoutY="686.0" prefHeight="117.0" prefWidth="67.0" style="-fx-background-color: #f7fbfc;" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="660.0" prefHeight="20.0" prefWidth="50.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="660.0" prefHeight="20.0" prefWidth="67.0" text="Relation">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExtraCredits" layoutX="315.0" layoutY="838.0" mnemonicParsing="false" onAction="#extraCreditsAction" style="-fx-background-color: #f7fbfc;" text="Extra Credits" textFill="#769fcd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="109.0" layoutY="839.0" mnemonicParsing="false" onAction="#deleteAction" style="-fx-background-color: #f7fbfc;" text="Delete this employee?" textFill="#769fcd">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblStatus" alignment="TOP_CENTER" layoutX="20.0" layoutY="910.0" prefHeight="68.0" prefWidth="463.0" text="-" textFill="#c90c0c" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPrint" layoutX="373.0" layoutY="17.0" mnemonicParsing="false" onAction="#printAction" style="-fx-background-color: #f7fbfc;" text="Print Report" textFill="#769fcd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

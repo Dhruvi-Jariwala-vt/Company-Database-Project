@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #d6e6f2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.deleteProjectController">
+   <children>
+      <CheckBox fx:id="checkBox1" layoutX="97.0" layoutY="89.0" mnemonicParsing="false" onAction="#checkBox1Action" text="1" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox2" layoutX="97.0" layoutY="114.0" mnemonicParsing="false" onAction="#checkBox2Action" text="2" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox3" layoutX="97.0" layoutY="140.0" mnemonicParsing="false" onAction="#checkBox3Action" text="3" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox10" layoutX="97.0" layoutY="167.0" mnemonicParsing="false" onAction="#checkBox10Action" text="10" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox20" layoutX="97.0" layoutY="193.0" mnemonicParsing="false" onAction="#checkBox20Action" text="20" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox30" layoutX="97.0" layoutY="220.0" mnemonicParsing="false" onAction="#checkBox30Action" text="30" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="btnRemove" layoutX="78.0" layoutY="269.0" mnemonicParsing="false" onAction="#removeProjectAction" style="-fx-background-color: #f7fbfc;" text="Remove" textFill="#769fcd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="143.0" layoutY="29.0" text="Projects" textFill="#07689f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="89.0" text="ProductX" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="116.0" text="ProductY" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="139.0" text="ProductZ" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="193.0" text="Reorganization" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="166.0" text="Computerization" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="221.0" text="Newbenefits" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblStatus" layoutX="18.0" layoutY="320.0" prefHeight="54.0" prefWidth="363.0" textFill="#07689f" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSuggest" layoutX="239.0" layoutY="268.0" mnemonicParsing="false" onAction="#SuggestAction" style="-fx-background-color: #f7fbfc;" text="Suggest" textFill="#769fcd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

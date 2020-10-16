@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #d6e6f2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AskDependentController">
+   <children>
+      <Label layoutX="96.0" layoutY="38.0" text="Any Dependents?" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="yesCheckBox" layoutX="92.0" layoutY="93.0" mnemonicParsing="false" text="Yes" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="noCheckBox" layoutX="157.0" layoutY="93.0" mnemonicParsing="false" text="No" textFill="#07689f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="110.0" layoutY="163.0" mnemonicParsing="false" onAction="#askDependentAction" style="-fx-background-color: #f7fbfc;" text="Submit" textFill="#769fcd">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

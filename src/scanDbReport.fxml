@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="550.0" style="-fx-background-color: #d6e6f2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scanDbController">
+   <children>
+      <Label fx:id="lblMore" alignment="TOP_CENTER" layoutX="12.0" layoutY="56.0" prefHeight="240.0" prefWidth="249.0" style="-fx-background-color: #f7fbfc;" textFill="#07689f" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLess" alignment="TOP_CENTER" layoutX="287.0" layoutY="56.0" prefHeight="240.0" prefWidth="249.0" style="-fx-background-color: #f7fbfc;" textFill="#07689f" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="21.0" prefHeight="28.0" prefWidth="170.0" text="More projects than allowed">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="23.0" prefHeight="26.0" prefWidth="162.0" text="Less Projects than allowed">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRemoveMore" layoutX="48.0" layoutY="338.0" mnemonicParsing="false" onAction="#removeMoreAction" style="-fx-background-color: #f7fbfc;" text="Remove above employees?" textFill="#769fcd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRemoveLess" layoutX="321.0" layoutY="338.0" mnemonicParsing="false" onAction="#removeLessAction" style="-fx-background-color: #f7fbfc;" text="Remove above employees?" textFill="#769fcd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="357.0" layoutY="8.0" text="Employees with">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="8.0" text="Employees with">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblWarning" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="413.0" prefHeight="20.0" prefWidth="378.0" textFill="#ff0909">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
